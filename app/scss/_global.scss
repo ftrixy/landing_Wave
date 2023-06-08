@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+}
+body {
+    font-size: 14px;
+    color: #242121;
+    font-weight: 300;
+    line-height: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    flex-direction: column;
+    // background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1; // Розтягує контент посередині по вертикалі. Header та footer розкидаються на верх і на низ відповідно.
+}
+
+.container {
+    max-width: 1220px;  // Змінюється по макету 
+    margin: 0 auto;
+    padding: 0 10px; // Змінюється по макету 
+    min-height: 100%;
+    position: relative;
+}
+
+
+
+.footer {
+    min-width: 100%; 
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    color: #fff;
+}
+::-ms-input-placeholder {
+    color: #fff;
+}
