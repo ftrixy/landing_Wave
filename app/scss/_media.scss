@@ -132,13 +132,14 @@
     .header__content-inner {
         display: block;
         text-align: center;
-        padding-top: 250px;
+        padding-top: 200px;
+        margin-top: 50px;
     }
     .header__arrow-img {
         margin: 0 auto;
     }
     .header__subtitle {
-        margin-bottom: 425px;
+        margin-bottom: 300px;
     }
     .header__arrow-img {
         padding-bottom: 20px;
@@ -172,6 +173,17 @@
         width: 100%;
         padding: 0;
         align-items: center;
+    }
+    .gallery{
+        &__button{
+            display: flex;
+            justify-content: center;
+        }
+        &__content{
+            display: flex;
+            justify-content: center;
+        }
+
     }
 }
 
@@ -208,7 +220,7 @@
 
 @media (max-width: 520px) {
     .header__content-inner {
-        padding-top: 330px;
+        padding-top: 150px;
     }
     .header__title {
         font-size: 100px;
